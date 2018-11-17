@@ -16,6 +16,7 @@ cheerio页面容器选择模块
 mkdirp增删改目录，fs判断文件状态，request的pipe方法完成写文件流操作
 
 # 以保存图片为例：
+<pre>
 const dir = './epio';
 const filename = 'test';
 // 创建目录
@@ -32,7 +33,8 @@ request.head(url, function(err, res, body) {
     })
     .pipe(fs.createWriteStream(img))
     .on('close', callback);
-
+</pre>
 ## 参考
 https://blog.csdn.net/i_peter/article/details/53374728
+
 http://www.jb51.net/article/77626.htm
