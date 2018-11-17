@@ -15,7 +15,7 @@ cheerio页面容器选择模块
 # 保存
 mkdirp增删改目录，fs判断文件状态，request的pipe方法完成写文件流操作
 
-# 以保存图片为例：
+以保存图片为例：
 <pre>
 const dir = './epio';
 const filename = 'test';
